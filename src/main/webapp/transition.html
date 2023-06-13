@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        h4{
+            height: 400px;
+            width: 40%;
+            background-color: blue;
+            transition-property: background-color,width,height;
+            transition-duration: 10s
+            ;
+        }
+        h4:hover{
+            height: 800px;
+            width: 80%;
+            background-color: yellow;
+            border-radius: 90%;
+        }
+
+
+        h6{
+            height: 400px;
+            width: 40%;
+            background-color: rgba(12, 69, 240, 0.93);
+            opacity: 0.0;
+            /* transition: background-color,10s,linear,2s; shortend property  */
+            transition-property: background-color,width,opacity,height;
+            transition-duration: 4s,10s,5s,7s;
+            transition-delay: 2s,3s,4s,4s;
+            transition-timing-function: linear,ease,ease-in,ease-out;
+        }
+        h6:hover{
+            height: 700px;
+            width: 1200px;
+            opacity: 1.0;
+            background-color: rgb(238, 238, 13);
+        }
+    </style>
+</head>
+<body>
+    
+    <h4></h4>
+    <h6>CSK WILL WIN THEIR 5th TROPHY IN 2023</h6>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* descendent selector */
+
+/* div h1{
+
+    color: aqua;
+    background-color: red;
+} */
+
+
+/* child selector */
+/* div>h1{
+
+    color: aqua;
+    background-color: red;
+} */
+
+/* Adjacent sibling selector */
+
+/* div+h1{
+
+    color: aqua;
+    background-color: red;
+} */
+
+/* General siblong selector */
+
+div~h1{
+
+    color: aqua;
+    background-color: red;
+}

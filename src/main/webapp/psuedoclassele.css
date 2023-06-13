@@ -1,0 +1,17 @@
+/* .container p:first-child{
+    color: yellow;
+} */
+
+/* .container p:last-child{
+    color: blue;
+    background-color: black;
+} */
+
+/* .container p:nth-child(1){
+    color: greenyellow;
+} */
+
+.container  :nth-child(2)
+{
+    color: blue;
+}

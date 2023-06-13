@@ -1,0 +1,33 @@
+h1::first-letter{
+    color: red;
+    background-color: yellow;
+    font-size: 50px;
+}
+
+h1::first-line{
+    color: aqua;
+    background-color: rgb(180, 161, 161);
+}
+
+
+h1::before{
+    content: "Heading=>";
+}
+
+h1::after{
+    content: "Thank you";
+}
+
+h1::selection{
+
+    color: green;
+    background-color: red;
+}
+
+li::marker{
+
+    color: rgb(231, 101, 14);
+    font-size: 30px;
+}
+
+/* marker will be used for list tags */

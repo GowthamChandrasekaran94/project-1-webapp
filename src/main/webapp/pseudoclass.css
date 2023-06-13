@@ -1,0 +1,33 @@
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color:pink
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    border: 50px groove black;
+}
+
+div:hover{
+    height: 400px; 
+    width: 400px;
+    background-color: burlywood;
+    border: 70px double grey;
+    border-radius: 360px;
+}
